@@ -19,7 +19,7 @@ export default function Main() {
                 <h2 className='name' >I am Mokhtar Ali, a Full Stack Web Developer In NYC</h2>
                 <div className='skills'>
 
-                    <p className='skilled' > Skilled at:
+                    <p className='skilled' > Skills:
                 <DiRuby style={{ marginLeft: '10px' }} className='icon'/>
                         <DiPython className='icon' id='python'  />
                         {/* <DiJsBadge /> */}
