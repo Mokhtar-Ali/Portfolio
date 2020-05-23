@@ -1,0 +1,20 @@
+.projs {
+    background-image: url('./wood.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: 100vh fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.projects {
+    display: flex;
+
+} 
+
+.projects-header {
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.7em;
+}

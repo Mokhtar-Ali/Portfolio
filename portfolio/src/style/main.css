@@ -1,0 +1,48 @@
+
+.main {
+    text-align: center;
+    color: white;
+}
+
+.about{ 
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.developer {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: fantasy;
+
+}
+
+.skilled {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.5em;
+
+}
+
+.icon {
+    margin-left: 5px;
+}
+.name {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: fantasy;
+    
+}
+
+.icon:hover {
+    color: orange
+}

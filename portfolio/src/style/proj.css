@@ -1,0 +1,22 @@
+.proj-name {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: fantasy;
+    color: black;
+}
+
+.proj-link {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    /* font-family: fantasy; */
+}
+
+.proj-a:hover,
+.proj-a:active{
+    color: red;
+    text-decoration: none;
+    display: block;
+    /* text-shadow: 2px 2px black;
+    /* padding: 10px 15px */
+}
