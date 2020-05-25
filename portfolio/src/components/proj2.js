@@ -55,7 +55,7 @@ export default function Proj2(props) {
                     </Typography>
                     <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
                         <Typography gutterBottom variant="p" component="p" className='proj-link' >
-                            <a className='proj-a' href='https://travelfrog.herokuapp.com' target="_blank">Demo</a>
+                            <a className='proj-a' href='https://youtu.be/UHQR2-ej7ow' target="_blank">Demo</a>
                         </Typography>
 
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>

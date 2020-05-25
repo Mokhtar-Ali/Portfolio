@@ -10,14 +10,16 @@ import Contact from './components/contact'
 import Resume from './components/resume'
 import About from './components/about'
 
+
+
 ReactDOM.render(
   <Router>
-    {/* <NavBar /> */}
     <Route exact path="/" component={App} />
-    <Route exact path="/projects" component={Projects} />
-    <Route exact path="/about" component={About} />
-    <Route exact path="/resume" component={Resume} />
-    <Route exact path="/contact" component={Contact} />
+    <Route path="/projects" component={Projects} />
+    <Route path="/about" component={About} />
+    <Route path="/resume" component={Resume} />
+    <Route path="/contact" component={Contact} />
+
   </Router>
   , document.getElementById('root'))
 serviceWorker.unregister();
