@@ -18,7 +18,7 @@ export default function NavR() {
                         <li ><a className='navbar-li-r' href='/' > Home </a></li>
                         <li ><a className='navbar-li-r' href='/projects'> Projects </a></li>
                         <li ><a className='navbar-li-r' href='/about'> About </a></li>
-                        <li ><a className='navbar-li-r' href='/resume'> Resume </a></li>
+                        {/* <li ><a className='navbar-li-r' href='/resume'> Resume </a></li> */}
                         <li ><a className='navbar-li-r' href='/contact'> Contact </a></li>
                     </ul>
                 </div>

@@ -8,9 +8,12 @@ function App() {
   return (
     <div className='app'>
       <NavBar />
-      <main style={{marginTop: '64px'}}>
+      <div style={{ marginTop: '64px', display: 'flex', flexDirection: 'column'}}>
         <Main />
-      </main>
+        <div style={{ flex: '1', margin:'150px' }}>
+      </div>
+
+      </div>
     </div>
   );
 }

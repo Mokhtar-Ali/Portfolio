@@ -1,10 +1,9 @@
 .about-me {
     background-image: url('./wood.jpg');
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-size: 100vh fixed;
-    background-size: cover;
     height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .about-me-header {

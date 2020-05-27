@@ -1,10 +1,9 @@
 .contact{
     background-image: url(../components/pic2.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
-    background-size: 100vh fixed;
-    background-size: cover;
     height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
     /* opacity: 80%; */
     /* width: 100vh; */
     text-align: center;;
