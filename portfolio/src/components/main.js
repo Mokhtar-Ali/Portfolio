@@ -4,19 +4,24 @@ import {
     DiCode, DiCss3, DiFirebase, DiGithubBadge, DiHtml5, DiJavascript1, DiJsBadge, DiPython, DiReact, DiRuby
 } from "react-icons/di";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import GoogleFontLoader from 'react-google-font-loader';
+// import GoogleFontLoader from 'react-google-font-loader';
+// import { saveAs } from 'file-saver';
+
 
 
 
 
 export default function Main() {
 
+    // var file = new File(["MokhtarResume"], "MokhtarResume.pdf", {type: "text/plain;charset=utf-8"});
+    // FileSaver.saveAs(file);
+
 
     return (
         <div className='main'>
             <div className='about'>
                 <h1 className='developer' >Web Developer</h1>
-                <h2 className='name' >I am Mokhtar Ali, a Full Stack Web Developer In NYC</h2>
+                <h2 className='name' >I am Mokhtar Ali, a Full-Stack Software Engineer In NYC</h2>
                 <div className='skills'>
 
                     <p className='skilled' > Skills:
@@ -32,6 +37,7 @@ export default function Main() {
                         <DiGithubBadge className='icon' id='8' />
                     </p>
                 </div>
+                {/* <a href="portfolio/src/components/MokhtarResume.pdf" download><h2 className='name' >Download Resume</h2></a> */}
             </div>
         </div>
     )

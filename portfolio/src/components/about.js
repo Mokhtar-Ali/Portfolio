@@ -9,23 +9,22 @@ import Academy from '../style/modern-Academy.jpeg'
 export default function About() {
     return (
         <div className='about-me'>
-            <NavBar />
+            <NavBar /> 
 
             <h1 className='about-me-header'>About Me</h1>
             <div className='first'>
-
                 <div className='profile-img'>
                     <img src={Me} className='profile_image' />
                 </div>
 
                 <div className='info-container'>
-                    <h2 className='my-info' >Experienced in Ruby on Rails and JavaScript based programming with a background in Marketing, Customer Service and Accounting.<br /> From an early age I have a passion to dig into whats behind the scene with the computer language. <br />Now that I finished a bootcamp in Software Engineering at Flatiron, I feel more motivated to help tech companies develop and improve their applications.  <br/>If I am not programming, I am traveling the world and blogging about it.</h2>
+                    <p className='my-info' >Experienced Ruby on Rails and JavaScript based programmer with a background<br/> in Accounting and Customer Service. <br/>From an early age I was passionate about breaking down my computer both software and hardware into pieces, trying to put them together like puzzles.<br/><hr /> I finished a bootcamp in Software Engineering at Flatiron, I feel more motivated to help tech companies develop and improve their applications. <br/><hr/> If I am not programming, I am Traveling the world and blogging about it.</p>
                  </div>
                  </div>
 
                  <h1 className='about-me-header' style={{ 'marginTop': '70px' }}>Education</h1>
                  <div style={{display: 'flex'}}>
-                <div className='second'>
+                <div className='second' style={{'marginLeft': '20%'}}>
                     <div className='flatiron-img'>
                         <img src={Flatiron} className='flatiron_image' />
                     </div>

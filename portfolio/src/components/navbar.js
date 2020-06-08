@@ -16,8 +16,9 @@ export default function NavBar() {
                     <ul >
                         <li ><a className='navbar-li' href='/' > Home </a></li>
                         <li ><a className='navbar-li' href='/projects'> Projects </a></li>
+                        <li ><a className='navbar-li' href='https://passportshub.website/' target='_blank'> Blog </a></li>
+                        <li ><a className='navbar-li' href='/resume'> Resume </a></li>
                         <li ><a className='navbar-li' href='/about'> About </a></li>
-                        {/* <li ><a className='navbar-li' href='/resume'> Resume </a></li> */}
                         <li ><a className='navbar-li' href='/contact'> Contact </a></li>
                     </ul>
                 </div>

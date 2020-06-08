@@ -10,6 +10,8 @@
 }
 .projects {
     display: flex;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 
 } 
 
