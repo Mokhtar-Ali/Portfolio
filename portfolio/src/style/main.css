@@ -46,3 +46,19 @@
 .icon:hover {
     color: orange
 }
+
+.navbar-li:hover,
+.navbar-li:active {
+    color: #caa472;
+}
+
+.resume {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: fantasy;
+}
+
+.resume:hover {
+    color: #caa472;
+}
