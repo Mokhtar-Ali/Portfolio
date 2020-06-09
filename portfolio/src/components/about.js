@@ -18,7 +18,13 @@ export default function About() {
                 </div>
 
                 <div className='info-container'>
-                    <p className='my-info' >Experienced Ruby on Rails and JavaScript based programmer with a background<br/> in Accounting and Customer Service. <br/>From an early age I was passionate about breaking down my computer both software and hardware into pieces, trying to put them together like puzzles.<br/><hr /> I finished a bootcamp in Software Engineering at Flatiron, I feel more motivated to help tech companies develop and improve their applications. <br/><hr/> If I am not programming, I am Traveling the world and blogging about it.</p>
+                    <p className='my-info' >
+                        Experienced Ruby on Rails and JavaScript based programmer with a background in Accounting and Customer Service.<br/><hr/>
+                        Passionate about breaking down computers both software and hardware into pieces, and putting them back together like puzzles.<br/><hr/>
+                        Skilled at problem solving, debugging, creative design and helping tech companies develop and improve the quality and style of their applications. <br/><hr/>
+                        If I am not programming, I am Traveling the world and blogging about it on <br />
+                        <a href='https://passportshub.website/' target='_blank' className='my-info-website'>WWW.PassportsHub.com</a>
+                    </p>
                  </div>
                  </div>
 

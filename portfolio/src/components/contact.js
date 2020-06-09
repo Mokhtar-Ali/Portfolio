@@ -16,6 +16,7 @@ function Contact() {
           <h2 className='text' >Cell No: 1-917-780-9875</h2>
           <h2 className='text' >Address: Astoria, New York, 11105</h2>
           <h2 className='text' >Email: JoeMokhtarAli@gmail.com</h2>
+          <h3 className='text'>LinkedIn & Github</h3>
           <a href='https://www.linkedin.com/in/mokhtar-ali-494b3765/' target="_blank" className='link'> <FaLinkedin /> </a>
           <a href='https://github.com/Joemokhtarali' target="_blank" className='link'><DiGithubBadge /></a>
         </div>
