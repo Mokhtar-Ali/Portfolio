@@ -1,15 +1,32 @@
 .about-me {
-    background-image: url('./wood.jpg');
-    background-size: cover;
-    height: 100vh;
+    height: 100vh; 
+    /* background-image: url('./wood.jpg'); */
+    /* background-position-x: ; */
+    /* background-size: cover;
+    
     /* background-position: center center; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .about-me-header {
     text-align: center;
     color: white;
     text-shadow: 2px 2px black;
+}
+.headlights {
+    display: flex;
+}
+
+.divider {
+    flex: 1;
+}
+.header-img{
+    width: 250;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 30%;
+    margin: 1px auto 20px auto;
+    flex: 1;
 }
 
 .first {
@@ -61,7 +78,7 @@
 
 .info-container {
     width: 50%;
-    margin-left: 5%;
+    margin-left: 20%;
 }
 
 .my-info {

@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
+  background-image: url(./components/pic2.jpg);
+  background-position: center center;
 }
 
 code {
@@ -12,3 +14,36 @@ code {
     monospace;
 }
 
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  body {
+    background-position: center center;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  body {
+    width: 100%;
+    height: auto;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body {
+    width: 100%;
+    height: auto;
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  body {
+    width: 100%;
+    height: auto;
+  }
+ }
+
+ 
