@@ -1,5 +1,5 @@
 .about-me {
-    height: 100vh; 
+    /* height: 100vh;  */
     /* background-image: url('./wood.jpg'); */
     /* background-position-x: ; */
     /* background-size: cover;
@@ -7,7 +7,9 @@
     /* background-position: center center; */
     /* background-attachment: fixed; */
 }
-
+.navbar-about {
+    width: 100%;
+}
 .about-me-header {
     text-align: center;
     color: white;
@@ -38,9 +40,9 @@
 .profile-img {
     width: 300px;
     height: 200px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-left: 5px;
-    padding: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* margin-left: 40%;
+    padding: 10px; */
     /* margin-left: 200px; */
     
 }
@@ -97,6 +99,11 @@
     text-shadow: 1.5px 1.5px black;
 }
 
+.education {
+    display: flex;
+    margin-right: 10%;
+}
+
 .flatiron-container {
     /* margin-top: 100px; */
     /* color: white; */
@@ -118,3 +125,49 @@
     text-shadow: 1.5px 1.5px black;
     margin-left: 50px;
 }
+
+@media only screen and (max-width: 480px) {
+    .info-container {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .profile-img {
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    .education {
+        flex-direction: column;
+    }
+  }
+  
+  /* ipads */
+  @media only screen and (max-width: 767px) {
+    .info-container {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .profile-img {
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    .education {
+        flex-direction: column;
+    }
+  }
+  /* bigger ipads */
+  @media only screen and (max-width: 1023px) {
+    .profile-img {
+        margin-bottom: 10%;
+    }
+  }
+   
+  /* computers */
+  @media only screen and (max-width: 1200px) {
+    .info-container {
+        width: 100%;
+        margin-left: 10%;
+    }
+  }
+
+
+  

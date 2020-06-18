@@ -23,7 +23,7 @@
     font-size: 1.7em;
 }
 
-@media (min-aspect-ratio: 16/9){
+/* @media (min-aspect-ratio: 16/9){
     .projs {
       width: 100%;
       height: auto;
@@ -40,5 +40,11 @@
     .projs {
       background-size: cover;
     }
-  }
+  } */
   
+
+   
+  /* computers */
+  /* @media only screen and (max-width: 1200px) {
+  
+  } */

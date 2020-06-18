@@ -4,7 +4,7 @@ import NavBar from './components/navbar'
 import Main from './components/main'
 
 
-function App() {
+function App(){ 
   return (
     <div className='app'>
       <NavBar />

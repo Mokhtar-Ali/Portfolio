@@ -3,6 +3,9 @@
 }
 /* style="max-width:100%;height:auto;" */
 .app{
+
+  /* background-size: 100%; */
+  /* height: 100vh; */
   /* background-image: url(./components/pic2.jpg); */
   /* background-size: cover; */
   /* height: 100vh cover; */
@@ -20,7 +23,7 @@
 
   /* width: 100%; */
 }
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -70,28 +73,3 @@
  }
 
 
-/* @media (min-aspect-ratio: 16/9){
-  .app {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio: 16/9){
-  .app {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 767px){
-  .app {
-    background-size: cover;
-    background-size: 100vh fixed;
-    background-size: cover;
-    height: 100vh;
-  }
-
-} */
-
-
-/* background-size: cover; */

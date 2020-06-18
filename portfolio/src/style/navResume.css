@@ -55,3 +55,28 @@
 }
 
 
+
+@media only screen and (max-width: 480px) {
+
+    .nav-developer-r {
+      font-size: 0.8em;
+      
+    }
+
+    .navbar-li {
+      font-size: 0.7em;
+    }
+}
+
+/* ipads */
+@media only screen and (max-width: 767px) {
+  .nav-developer-r {
+      font-size: 1.4em;
+      
+    }
+
+    .navbar-li {
+      font-size: 1.1em;
+    }
+    
+}

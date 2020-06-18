@@ -1,0 +1,43 @@
+@media only screen and (max-width: 480px) {
+    .header {
+        width:100%;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+      }
+
+
+  }
+  
+  /* ipads */
+  @media only screen and (max-width: 767px) {
+      .header {
+          width:100%;
+      }
+
+      .projects {
+        display: flex;
+        flex-direction: column;
+      }
+
+  }
+  /* bigger ipads */
+  @media only screen and (max-width: 1023px) {
+      .header {
+          width:100%;
+      }
+      .projects {
+        display: flex;
+        flex-direction: column;
+      }
+  }
+   
+  /* computers */
+  @media only screen and (max-width: 1200px) {
+  
+  }
+
+
+  

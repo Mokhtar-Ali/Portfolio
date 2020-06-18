@@ -9,7 +9,9 @@ import Academy from '../style/modern-Academy.jpeg'
 export default function About() {
     return (
         <div className='about-me'>
-            <NavBar />
+            <div className=''> 
+                <NavBar />
+            </div>
             <div className='headlights'>
                 <div className='divider'></div>
                 <div className='profile-img'>
@@ -34,8 +36,8 @@ export default function About() {
             </div>
 
             <h1 className='about-me-header' style={{ 'marginTop': '70px' }}>Education</h1>
-            <div style={{ display: 'flex' }}>
-                <div className='second' style={{ 'marginLeft': '20%' }}>
+            <div className='education'>
+                <div className='second'>
                     <div className='flatiron-img'>
                         <img src={Flatiron} className='flatiron_image' />
                     </div>

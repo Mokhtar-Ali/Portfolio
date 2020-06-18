@@ -1,5 +1,5 @@
 .toolbar {
-    /* position: top; */
+    /* position: top; */ 
     width: 100%;
     height: 56px;
     padding: 0 10px;
@@ -53,3 +53,39 @@
 }
 
 
+@media only screen and (max-width: 480px) {
+
+      .nav-developer {
+        font-size: 0.8em;
+        
+      }
+
+      .navbar-li {
+        font-size: 0.7em;
+      }
+  }
+  
+  /* ipads */
+  @media only screen and (max-width: 767px) {
+    .nav-developer {
+        font-size: 1.4em;
+        
+      }
+
+      .navbar-li {
+        font-size: 1.1em;
+      }
+      
+  }
+  /* bigger ipads */
+  @media only screen and (max-width: 1023px) {
+    
+  }
+   
+  /* computers */
+  @media only screen and (max-width: 1200px) {
+  
+  }
+
+
+  
