@@ -1,12 +1,9 @@
 .projs {
     /* background-image: url('./wood.jpg');
     background-size: cover;
-    height: 100vh;
-    background-position: center center;
-    background-attachment: fixed; */
-    /* background-size: cover; */
-    
-    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 100vh cover;
+    background-repeat: no-repeat; */
 }
 .projects {
     display: flex;

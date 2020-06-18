@@ -13,10 +13,10 @@ import MyResume from './MokhtarResume.pdf'
 export default function Main() {
 
     return (
-        <div className='main'>
+        <div className='main'> 
             <div className='about'>
                 <h1 className='developer' >Web Developer</h1>
-                <h2 className='name' >I am Mokhtar Ali, a Full-Stack Software Engineer In NYC</h2>
+                <h3 className='name' >I am Mokhtar Ali, a Full-Stack Software Engineer In NYC</h3>
                 <div className='skills'>
 
                     <p className='skilled' > Skills:
