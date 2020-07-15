@@ -1,12 +1,10 @@
 .contact{
     background-image: url(../components/pic2.jpg);
     background-size: cover;
-    height: 100vh;
-    background-position: center center;
-    background-attachment: fixed;
-    /* opacity: 80%; */
-    /* width: 100vh; */
-    text-align: center;;
+    background-position: center;
+    height: 100vh cover;
+    background-repeat: no-repeat;
+    text-align: center;
     font-family: fantasy;
   }
  

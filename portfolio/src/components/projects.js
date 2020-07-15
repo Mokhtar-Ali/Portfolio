@@ -16,6 +16,11 @@ export default function projects() {
                 <Proj2 />
                 <Proj3 />
             </div>
+            <div style={{ display: 'flex' }}>
+                <p style={{ color: 'white', padding: '10px', margin: '20px' }}>&copy; 2020 MokhtarAli.dev</p>
+                <div style={{ flex: '1' }}></div>
+                <p style={{ color: 'white', padding: '10px', margin: '20px' }}>Created by: Mokhtar Ali</p>
+            </div>
 
         </div>
     )
