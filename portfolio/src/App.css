@@ -70,6 +70,37 @@
     width: 100%;
     height: auto;
   }
+  .header-div{
+    flex-direction: column;
+  }
  }
 
 
+/* small phones from 0 to 48px */
+@media only screen and (max-width: 480px) {
+
+  .header-div{
+    flex-direction: column;
+  }
+}
+
+/* ipads */
+@media only screen and (max-width: 767px) {
+  .header-div{
+    flex-direction: column;
+  }
+}
+
+/* bigger ipads */
+@media only screen and (max-width: 1023px) {
+  .header-div{
+    flex-direction: column;
+  }
+}
+ 
+/* computers */
+@media only screen and (max-width: 1200px) {
+  .header-div{
+    flex-direction: column;
+  }
+}

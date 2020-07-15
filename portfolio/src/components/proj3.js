@@ -51,7 +51,7 @@ export default function Proj3(props) {
                     <Typography gutterBottom variant="p" component="p" className='proj-name' >
                         Air Patrol
                     </Typography>
-                    <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
+                    <div className='header-div' style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>
                             <a className='proj-a' href='https://travelfrog.herokuapp.com' target="_blank" >Demo</a>
                         </Typography>

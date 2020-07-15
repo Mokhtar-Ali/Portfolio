@@ -5,7 +5,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom"; 
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { DiCss3, DiFirebase, DiHtml5, DiRuby } from "react-icons/di";
 import '../style/proj.css'
@@ -51,7 +51,7 @@ export default function Proj1(props) {
                     <Typography gutterBottom variant="p" component="p" className='proj-name'>
                         TravelFrog
                     </Typography>
-                    <div style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
+                    <div className='header-div' style={{ display: 'flex',flexDirection: 'column', 'justify-content': 'space-evenly' }}>
 
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>
                             <a className='proj-a' href='https://travelfrog.herokuapp.com' target="_blank">Demo</a>

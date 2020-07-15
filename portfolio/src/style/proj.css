@@ -12,7 +12,7 @@
     /* font-family: fantasy; */
 }
 
-.proj-a:hover,
+.proj-a:hover, 
 .proj-a:active{
     color: red;
     text-decoration: none;
