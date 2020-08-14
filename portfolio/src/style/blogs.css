@@ -1,0 +1,27 @@
+.Blogs {
+    display: flex;
+    flex-direction: row;
+}
+.image {
+    width: 50%;
+}
+
+.tech {
+    margin-right: 25%;
+}
+
+.tech ul li {
+    font-size: 1.5em;
+    margin: 10px;
+}
+.travel ul li {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.tech h2 {
+    text-align: center;
+}
+.travel h2 {
+    text-align: center;
+}

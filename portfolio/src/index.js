@@ -9,6 +9,7 @@ import NavBar from './components/navbar';
 import Contact from './components/contact'
 import Resume from './components/resume'
 import About from './components/about'
+import Blogs from './Blogs/Blogs';
 
 
 
@@ -19,6 +20,7 @@ ReactDOM.render(
     <Route path="/about" component={About} />
     <Route path="/resume" component={Resume} />
     <Route path="/contact" component={Contact} />
+    <Route path="/blogs" component={Blogs} />
 
   </Router>
   , document.getElementById('root'))

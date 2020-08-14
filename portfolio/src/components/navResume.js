@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/navbar.css'
 import '../style/navResume.css'
 
-
+ 
 
 export default function NavR() { 
 
@@ -17,8 +17,7 @@ export default function NavR() {
                     <ul >
                         <li ><a className='navbar-li-r' href='/' > Home </a></li>
                         <li ><a className='navbar-li-r' href='/projects'> Projects </a></li>
-                        <li ><a className='navbar-li-r' href='https://passportshub.website/' target='_blank'> Blog </a></li>
-                        {/* <li ><a className='navbar-li-r' href='/resume'> Resume </a></li> */}
+                        <li ><a className='navbar-li-r' href='/blogs'> Blogs </a></li>
                         <li ><a className='navbar-li-r' href='/about'> About </a></li>
                         <li ><a className='navbar-li-r' href='/contact'> Contact </a></li>
                     </ul>
