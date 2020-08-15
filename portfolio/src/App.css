@@ -5,18 +5,18 @@
 .app{
 
   /* background-size: 1`00%; */
+  background-image: url(./components/pic2.jpg);
   /* height: 100vh; */
-  /* background-image: url(./components/pic2.jpg); */
-  /* background-size: cover; */
-  /* height: 100vh cover; */
-  /* max-width: 100% cover; */
-  /* width: 100vh; */
-  /* background-position: center center; */
-  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh cover;
+  max-width: 100% cover;
+  width: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   /* background-size: 100vh fixed; */
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size:cover;
-  -o-background-size:cover; */
+  -o-background-size:cover; 
 
   
   /* max-width: 100% auto;  */

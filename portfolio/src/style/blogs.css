@@ -1,13 +1,18 @@
+.blogs {
+    background-image: url('./wood.jpg');
+}
 .Blogs {
     display: flex;
     flex-direction: row;
+    
+
 }
 .image {
     width: 50%;
 }
 
 .tech {
-    margin-right: 25%;
+    margin-right: 10%;
 }
 
 .tech ul li {
@@ -20,8 +25,29 @@
 }
 
 .tech h2 {
-    text-align: center;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    font-size: 1.8em;
 }
 .travel h2 {
-    text-align: center;
+    margin-left: 20%;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    font-size: 1.8em;
+}
+
+.Blogs a{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px 15px
+} 
+
+.Blogs ul a:hover,
+.Blogs ul a:active {
+    color: #caa472;
 }

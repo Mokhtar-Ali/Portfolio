@@ -21,6 +21,9 @@ function Contact() {
           <a href='https://www.linkedin.com/in/mokhtar-ali-494b3765/' target="_blank" className='link'> <FaLinkedin /> </a>
           <a href='https://github.com/Joemokhtarali' target="_blank" className='link'><DiGithubBadge /></a>
         </div>
+        <div className='dividers'>
+
+        </div>
         
       </div>
 

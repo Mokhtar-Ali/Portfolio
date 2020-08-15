@@ -1,5 +1,5 @@
 .contact{
-    /* background-image: url(../components/pic2.jpg); */
+    background-image: url(../components/pic2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh cover;
@@ -20,5 +20,10 @@
 
   .link:hover {
       color: orange;
+  }
+
+  .dividers{
+      height: 500px;
+      
   }
 

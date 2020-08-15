@@ -10,7 +10,7 @@ class Blogs extends React.Component {
     render() {
         return (
             <div className='blogs'>
-                <NavBar />
+                <NavBar /> 
 
                 <div className='Blogs'>
                     <div className='tech'>
