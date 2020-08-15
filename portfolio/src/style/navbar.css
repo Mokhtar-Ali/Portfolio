@@ -15,9 +15,9 @@
     padding: 0 1rem;
 }
 
-.spacer {
+/* .spacer {
     flex: 1;
-   }
+   } */
 
 .toolbar_navigation-items ul {
     list-style: none;
@@ -34,7 +34,8 @@
     color: white;
     text-shadow: 1px 1px black;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    /* font-weight: 500px; */
     /* padding: 10px 15px */
 } 
 

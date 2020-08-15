@@ -29,8 +29,8 @@ export default function About() {
                         Experienced Ruby on Rails and JavaScript based programmer with a background in Accounting and Customer Service.<br /><hr />
                         Passionate about breaking down computers both software and hardware into pieces, and putting them back together like puzzles.<br /><hr />
                         Skilled at problem solving, debugging, creative design and helping tech companies develop and improve the quality and style of their applications. <br /><hr />
-                        If I am not programming, I am Traveling the world and blogging about it on <br />
-                        <a href='https://passportshub.website/' target='_blank' className='my-info-website'>WWW.PassportsHub.com</a>
+                        If I am not programming, I am Traveling the world and blogging about it on <br /><br />
+                        <a href='https://passportshub.website/' target='_blank' className='my-info-website'>www.PassportsHub.com</a>
                     </p>
                 </div>
             </div>

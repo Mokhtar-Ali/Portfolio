@@ -8,7 +8,7 @@ export default function NavBar() {
     return (
         <header className='toolbar'>
             <nav className='toolbar_navigation'>
-                <h3 className='nav-developer' >Developer</h3>
+                {/* <h3 className='nav-developer' >Developer</h3> */}
 
                 <div className='spacer'></div>
 
@@ -21,6 +21,7 @@ export default function NavBar() {
                         <li ><a className='navbar-li' href='/contact'> Contact </a></li>
                     </ul>
                 </div>
+                <div className='spacer'></div>
             </nav>
         </header>
     );

@@ -14,7 +14,7 @@ class Blogs extends React.Component {
 
                 <div className='Blogs'>
                     <div className='tech'>
-                        <h2>Tech Blogs</h2>
+                        <h2>Technical Blogs</h2>
                         <ul>
                             <a href='https://medium.com/@joemokhtarali/recursion-in-ruby-cli-project-cd12d9e56e3e' target='_blank'><li>Recursion and CLI</li></a>
                             <a href='https://medium.com/@joemokhtarali/state-props-intro-to-react-41d878a01864' target='_blank'><li>State & Props in React</li></a>
