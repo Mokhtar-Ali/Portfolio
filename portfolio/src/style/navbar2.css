@@ -1,0 +1,92 @@
+.toolbar {
+    /* position: top; */ 
+    width: 100%;
+    height: 56px;
+    padding: 0 10px;
+    font-family: fantasy;
+    background-color: inherit;
+
+}
+
+.toolbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* .spacer {
+    flex: 1;
+   } */
+
+.toolbar_navigation-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation-items li {
+    padding: 0 0.5rem;
+}
+
+.nav2-li{
+    color: #caa472;
+    /* text-shadow: 1px 1px black; */
+    /* text-decoration: none; */
+    /* font-size: 1.5em; */
+    /* font-weight: 500px; */
+    /* padding: 10px 15px */
+} 
+
+.nav-developer {
+    color: white;
+    /* text-shadow: 2px 2px black; */
+    font-size: 1.8em;
+}
+.nav-developer:hover {
+    color: #caa472;
+}
+
+.nav2-li:hover,
+.nav2-li:active {
+    color: #caa472;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+      .nav-developer {
+        font-size: 0.8em;
+        
+      }
+
+      .navbar-li {
+        font-size: 0.7em;
+      }
+  }
+  
+  /* ipads */
+  @media only screen and (max-width: 767px) {
+    .nav-developer {
+        font-size: 1.4em;
+        
+      }
+
+      .navbar-li {
+        font-size: 1.1em;
+      }
+      
+  }
+  /* bigger ipads */
+  @media only screen and (max-width: 1023px) {
+    
+  }
+   
+  /* computers */
+  @media only screen and (max-width: 1200px) {
+  
+  }
+
+
+  
