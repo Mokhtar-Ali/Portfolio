@@ -27,13 +27,14 @@ export default function About() {
                 <div className='info-container'>
                     <ul className='my-info' >
                         <br /> <br />
-                    <li>Immigrated to the USA 8 years ago, with a background in Accounting and Graphic Design. </li>
-                    <li>Began my career in the Hospitality industry thanks, to my friendly positive attitude. </li>
-                    <li>I escalated to the top in each business I worked in, from a waiter to a Banquet Manager, and provided the best customer service experiences at Terrace On The Park. </li>
-                    <li>My passion at a young age for breaking down machines both software and hardware into pieces, and putting them back together like puzzles motivated me to gain problem-solving skills. </li>
-                    <li>I’ve always had an eye for design, I achieved a Graphic Design certificate at Microsoft and worked professionally for 2 years before finishing college. </li>
-                    <li>Though I was always interested in seeking a field that connects all my skills and encourages me to continue learning, this is when I chose to attend Flatiron Bootcamp for Software Engineering.</li>
-                    <li>When I am not programming, I am exploring the world and blogging about it. </li>
+
+                    <li>I Immigrated to the USA 8 years ago, with a background in Accounting and Graphic Design. </li>
+                    <li>Began my career in the hospitality industry largely thanks to my friendly and outgoing personality. </li>
+                    <li>I excelled at the top in each business I worked in, from a waiter to a Banquet Manager, and provided the best customer service experiences at Terrace On The Park. </li>
+                    <li> My passion for breaking down machines regarding both software and hardware into bits, and putting them back together like puzzles at my young age motivated me to gain problem-solving skills. These skills helped me get a BS in Accounting.</li>
+                    <li>I’ve always had an eye for design, which led me to achieve a Graphic Design certificate at Microsoft and work as a professional for two years before finishing college.</li>
+                    <li>Also,  Although I was always interested in seeking a field that connects all my skills and encourages me to continue learning, this is when I chose to attend Flatiron Bootcamp for Software Engineering.</li>
+                    <li>When I am not programming, I am exploring the world and blogging about it.</li>
                         <a href='https://passportshub.website/' target='_blank' className='my-info-website'>www.PassportsHub.com</a>
                     <li> My hobbies: Writing | Reading | Soccer | Biking | Cooking | Volunteering | Learning new Languages.
                     </li>
