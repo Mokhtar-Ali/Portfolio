@@ -25,9 +25,9 @@ let about = <div>
     <div style={{ textAlign: 'center' }} >
         <DiJavascript1 /><DiReact /><DiHtml5 /><DiCss3 />
     </div>
-    <p>A Travel Blog for four of my favorite Countires I have traveled to, Ecuador, Egypt, Colombia and Thailand.</p>
-    <p>I write about the country, its culture, food, traditions, weather and all the tips you need to know before visiting.</p>
-    <p>App created using React, HTML, Custom CSS for styling and Material-ui.</p>
+    <p>A Travel Blog for four of my favorite Countries I have traveled to, Ecuador, Egypt, Colombia, and Thailand.</p>
+    <p>I write about the country, its culture, food, traditions, weather, and all the tips you need to know before visiting.</p>
+    <p>Implemented React for User Interface, Custome CSS, HTML, and Material UI for styling.</p>
 
 </div>
 let pic = 'https://media.giphy.com/media/YOSYLdGBySzOJAfAeO/giphy.gif'
