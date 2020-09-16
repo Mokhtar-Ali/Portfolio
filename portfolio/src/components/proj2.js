@@ -27,10 +27,10 @@ let about = <div>
     <div style={{ textAlign: 'center' }} >
         <DiRuby /><DiJavascript1 /><DiReact /><DiFirebase /><DiHtml5 /><DiCss3 /><BsFillBootstrapFill />
     </div>
-    <p>A Web App that allows you to create and join activities, be able to see its location and chat with participants </p>
-    <p>Ruby on Rails RESTful Api & Postgresql for database.<br />
-        React-Redux implemented for Frontend user interface & state management.<br />
-        Google Maps Api & Web Sockets to enable chat & Material Ui for styling.
+    <p>A Social Media App that enables users to create or find Activities in their City or abroad and be able to chat with others who are interested in the same activities to help to make new adventures and friends.</p>
+    <p>Implemented Ruby on Rails RESTful API to create & manipulate 7 models using Postgresql. 
+Implemented React-Redux to manage the application’s state, Action creators to keep DR.
+Utilized Google Maps API for location & Web Sockets to enable chat & Material Ui for styling.
 </p></div>
 let pic = 'https://media.giphy.com/media/eJvpHNO69GNwKQFoZE/giphy.gif'
 
