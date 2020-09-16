@@ -16,7 +16,8 @@ export default function Main() {
         <div className='main'> 
             <div className='about'>
                 <h1 className='developer' >Web Developer</h1>
-                <h3 className='name' >I am Mokhtar Ali, a Full-Stack Software Engineer In NYC</h3>
+                <h3 className='name' >I am Mokhtar Ali, a Full-Stack Software Engineer In NYC.</h3>
+                <h3 className='name' >With a background in Accounting, Marketing, Customer Service and Graphic Design. </h3>
                 <div className='skills'>
 
                     <p className='skilled' > Skills:

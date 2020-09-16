@@ -13,9 +13,9 @@ export default function projects() {
             <NavBar />
             <h3 className='projects-header' > Projects </h3>
             <div className='projects'>
-                <Proj1 />
-                <Proj2 />
                 <Proj3 />
+                <Proj2 />
+                <Proj1 />
                 <Proj4 />
             </div>
             <div style={{ display: 'flex' }}>
