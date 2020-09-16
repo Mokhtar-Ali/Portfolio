@@ -25,8 +25,12 @@ let about = <div>
     <div style={{ textAlign: 'center' }} >
         <DiRuby /><DiJavascript1 /><DiReact /><DiFirebase /><DiHtml5 /><DiCss3 />
     </div>
-    <p>A simulator game to save the environment by planting trees to increase Oxygen’s level and decrease</p>
-    <p>Ruby on Rails RESTful Api & Postgresql for database. <br />React implemented for Frontend user interface & state management.
+    <p>A game illustrates the impact on the environment when trees get cut down and how that affects the atmosphere. The player has to make tough decisions to keep the balance of the air quality under control.</p>
+    <p>Implemented Ruby on Rails RESTful API to create & manipulate 3 models using Postgresql. 
+Utilized User Authentication using Local Storage to enable access to the user’s data.
+Implemented React-Redux to manage the application’s state and Action Creators for DRY code.
+Implemented FlexBox and Material UI for creative design.
+
 </p>
 
 </div>
@@ -53,7 +57,7 @@ export default function Proj3(props) {
                     </Typography>
                     <div className='header-div' style={{ display: 'flex', 'justify-content': 'space-evenly' }}>
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>
-                            <a className='proj-a' href='https://travelfrog.herokuapp.com' target="_blank" >Demo</a>
+                            {/* <a className='proj-a' href='https://travelfrog.herokuapp.com' target="_blank" >Demo</a> */}
                         </Typography>
 
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>
@@ -61,7 +65,7 @@ export default function Proj3(props) {
                     </Typography>
 
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>
-                            <a className='proj-a' href='https://github.com/Joemokhtarali/Mod4-project-FrontEnd' target="_blank"> FrontEnd</a>
+                            <a className='proj-a' href='https://github.com/Joemokhtarali/airpatrol-react-redux' target="_blank"> FrontEnd</a>
                         </Typography>
 
                         <Typography gutterBottom variant="p" component="p" className='proj-link'>

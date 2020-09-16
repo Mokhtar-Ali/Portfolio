@@ -1,5 +1,6 @@
 .blogs {
-    background-image: url('./wood.jpg');
+    background-color: rgb(255,255,240);
+    /* background-image: url('./wood.jpg'); */
 }
 .Blogs {
     display: flex;
@@ -26,24 +27,24 @@
 
 .tech h2 {
     margin-left: 5%;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: orange;
+    /* text-shadow: 1px 1px black; */
     text-decoration: none;
     font-size: 1.8em;
 }
 .travel h2 {
     margin-left: 10%;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: orange;
+    /* text-shadow: 1px 1px black; */
     text-decoration: none;
     font-size: 1.8em;
 }
 
 .Blogs a{
-    color: white;
-    text-shadow: 1px 1px black;
+    color: black;
+    /* text-shadow: 1px 1px black; */
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1em;
     padding: 10px 15px
 } 
 
@@ -51,3 +52,4 @@
 .Blogs ul a:active {
     color: #caa472;
 }
+

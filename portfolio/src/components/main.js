@@ -24,7 +24,7 @@ export default function Main() {
                         <DiPython className='icon' id='python'  />
                         {/* <DiJsBadge /> */}
                         <DiJavascript1 className='icon' id='2' />
-                        <DiReact className='icon' id='3' />
+                        <DiReact className='icon' id='3' /> 
                         <DiFirebase className='icon' id='4' />
                         <DiHtml5 className='icon' id='5' />
                         <DiCss3 className='icon' id='6' />
