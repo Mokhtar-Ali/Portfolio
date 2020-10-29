@@ -34,7 +34,7 @@ Implemented FlexBox and Material UI for creative design.
 </p>
 
 </div>
-let pic = 'https://media.giphy.com/media/ZZqgVsXhnqf4xyE9z8/giphy.gif'
+let pic = 'https://media.giphy.com/media/SsD8hcTO0yjmTZjGgu/giphy.gif'
 
 export default function Proj3(props) {
     let history = useHistory();
