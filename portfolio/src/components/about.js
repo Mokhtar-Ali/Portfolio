@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/about.css'
 import NavBar from './navbar'
-import Me from '../style/me.jpg'
+import Me from '../style/me.JPG'
 import Flatiron from '../style/flatiron.png'
 import Academy from '../style/modern-Academy.jpeg'
 
@@ -25,19 +25,10 @@ export default function About() {
                 </div> */}
 
                 <div className='info-container'>
-                    <ul className='my-info' >
-                        <br /> <br />
-                    <li>A recent graduate and Software Engineer who started off a career in non-traditional sectors and has built a more holistic understanding of end-users and business needs.</li>
-                    <li>I am a graduate of Flatiron School’s Software Engineering program, where I studied Ruby, Rails, Javascript, and React in a 15-week intensive that encouraged innovation and a balance between self-reliance and team-building.</li>
-                    <li>My passion for breaking down machines regarding both software and hardware into bits, and putting them back together like puzzles at my young age motivated me to gain problem-solving skills. These skills helped me get a BS in Accounting.</li>
-                    <li>After moving to the USA I began my career in the hospitality industry largely thanks to my friendly and outgoing personality. </li>
-                    <li>I excelled at the top in each business I worked in, from a waiter to a Banquet Manager, and provided the best customer service experiences at Terrace On The Park. </li>
-                    <li>I’ve always had an eye for design, which led me to achieve a Graphic Design certificate at Microsoft and work as a professional for two years before finishing college.</li>
-                    <li>When I am not programming, I am exploring the world and blogging about it.</li>
-                        <a href='https://passportshub.website/' target='_blank' className='my-info-website'>www.PassportsHub.com</a>
-                    <li> My hobbies: Traveling | Desiging | Writing | Reading | Soccer | Biking | Cooking | Volunteering | Learning new Languages.
-                    </li>
-                    </ul>
+                    <p className='my-info' >
+                        <br/> <br/>
+                    A global citizen, multilingual in coding and linguistics. With an extensive inquisitive nature to solve problems by building a more holistic customer-centric approach. As an Egyptian American, an eye for design comes naturally in addition to having a certificate in Graphic Design from Microsoft. Having graduated from the rigorous intensive Flatiron Bootcamp in Software Engineering, I've learned Ruby, Rails, Javascript, and React in 15-weeks. Collaborated with individuals who have various educational and software backgrounds to build a high-quality application and project.
+                    </p>
                 </div>
             </div>
 

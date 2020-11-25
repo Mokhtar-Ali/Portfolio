@@ -13,13 +13,14 @@ import '../style/proj.css'
 
 const useStyles = makeStyles({
     root: {
-        width: '500px',
-        padding: '10px',
+        width: '60%',
+        height: '100%',
         margin: '20px',
         marginTop: '20px',
+        marginLeft: '15%'
     },
     media: {
-        height: 300,
+        height: 500,
     },
 });
 

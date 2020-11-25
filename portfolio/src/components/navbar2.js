@@ -17,8 +17,8 @@ export default function NavBar() {
                         <li className='nav2-li'><a className='navbar-li' href='/' > Home </a></li>
                         <li className='nav2-li'><a className='navbar-li' href='/projects'> Projects </a></li>
                         <li className='nav2-li'><a className='navbar-li' href='/blogs'> Blogs </a></li>
-                        <li className='nav2-li'><a className='navbar-li' href='/about'> About </a></li>
-                        <li className='nav2-li'><a className='navbar-li' href='/contact'> Contact </a></li>
+                        {/* <li className='nav2-li'><a className='navbar-li' href='/about'> About </a></li>
+                        <li className='nav2-li'><a className='navbar-li' href='/contact'> Contact </a></li> */}
                     </ul>
                 </div>
                 <div className='spacer'></div>
