@@ -12,7 +12,7 @@ import {
   DiJsBadge,
   DiPython,
   DiReact,
-  DiRuby,
+  DiRuby, 
 } from "react-icons/di";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import MyResume from "./MokhtarResume.pdf";
@@ -28,7 +28,7 @@ export default function Main() {
         <p className="name">
           I am Mokhtar Ali, a Full-Stack Software Engineer In NYC.
         </p>
-        <p className="my-info-main">
+        <h5 className="my-info-main">
           A global citizen, multilingual in coding and linguistics. With an
           extensive inquisitive nature to solve problems by building a more
           holistic customer-centric approach. As an Egyptian American, an eye
@@ -37,12 +37,12 @@ export default function Main() {
           Flatiron Bootcamp in Software Engineering. I've learned Ruby, Rails,
           Javascript, and React in 15-weeks. Collaborated with individuals who
           have various educational and software backgrounds to build a
-          high-quality application and project.
-        </p>
+          high-quality applications and projects.
+        </h5>
         <a
           href="https://www.linkedin.com/in/mokhtar-ali-494b3765/"
           target="_blank"
-          className="link" style={{fontSize:'1.3em'}}
+          className="link" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}
         >
           {" "}
           Linkedin{" "}
@@ -50,7 +50,7 @@ export default function Main() {
         <a
           href="https://github.com/Joemokhtarali"
           target="_blank"
-          className="link" style={{fontSize:'1.3em'}}
+          className="link" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}
         >
           {" "}
           Github
@@ -71,10 +71,10 @@ export default function Main() {
             <DiGithubBadge className="icon" id="8" />
           </p>
         </div>
-        <h3 className="" style={{ marginTop: "70px" }}>
+        <h3 className="" style={{fontSize:'1.3em', marginTop: "70px", fontFamily: 'fantasy', textShadow: '1px 1px black'}}>
           Education
         </h3>
-        <ul className="">
+        <ul className="" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}>
           <p> Flatiron School | Full Stack Software Engineering May-2020 </p>
           <p> Modern Academy Business School | Bachelor in Management 2010 GPA:3.4
           </p>

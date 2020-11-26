@@ -18,11 +18,11 @@
 } 
 
 .projects-header {
-    text-align: center;
-    font-family: fantasy;
-    color: white;
-    text-shadow: 2px 2px black;
-    font-size: 1.7em;
+  font-family: fantasy;
+  color: white;
+  text-align: center;
+  opacity: 80%;
+  text-shadow: 1px 1px black;
 }
 
 /* @media (min-aspect-ratio: 16/9){

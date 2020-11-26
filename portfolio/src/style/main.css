@@ -59,13 +59,13 @@
 }
 .my-info-main{
     text-align: center;
-    /* color: white; */
-    text-shadow: 2px 2px black;
-    /* text-shadow: 2px 2px black; */
+    color: white;
+    text-shadow: 1px 1px black;
     font-family: fantasy;
     font-size: 1.4em;
-    width: 50%;
+    width: 52%;
     margin-left: 25%;
+    letter-spacing: 0.07em;
 }
 
 .skilled {

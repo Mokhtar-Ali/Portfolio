@@ -11,7 +11,7 @@ export default function projects() {
     return (
         <div className='projs'>
             <NavBar />
-            <h3 className='projects-header' > Projects </h3>
+            <h2 className='projects-header' > Projects </h2>
             <div className='projects'>
                 <Proj3 />
                 <Proj2 />

@@ -107,7 +107,7 @@ class Blogs extends React.Component {
     return (
       <div className="blogs">
         <NavBar />
-        
+        <h2 > Technical Blogs</h2>
         <div className="Blogs">
             
           <div className="Tech-blogs">
