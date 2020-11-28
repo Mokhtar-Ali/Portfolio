@@ -8,15 +8,15 @@ function App() {
   return (
     <div className='app'>
       <NavBar />
-      <div style={{ marginTop: '', display: 'flex', flexDirection: 'column' }}>
+      <div className = 'div-main' >
         <Main />
-        <div style={{ flex: '1', margin: '0px' }}>
+        <div className = 'div-main-divider' >
         </div>
       </div>
-      <div style={{ display: 'flex' }}>
-        <p style={{ color: 'white', padding: '10px', margin: '10px'}}>&copy; 2020 MokhtarAli.dev</p>
+      <div className = 'div-copyRight'>
+        <p>&copy; 2020 MokhtarAli.dev</p>
         <div style={{ flex: '1' }}></div>
-        <p style={{ color: 'white', padding: '10px', margin: '10px'}}>Created by: Mokhtar Ali</p>
+        <p>Created by: Mokhtar Ali</p>
       </div>
     </div>
   );

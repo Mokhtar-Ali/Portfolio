@@ -4,14 +4,14 @@ import Proj2 from './proj2'
 import Proj3 from './proj3'
 import Proj4 from './proj4'
 import '../style/projects.css'
-import NavBar from './navbar'
+import Navbar2 from './navbar2'
 
 export default function projects() {
 
     return (
         <div className='projs'>
-            <NavBar />
-            <h2 className='projects-header' > Projects </h2>
+            <Navbar2 />
+            {/* <h2 className='projects-header' > Projects </h2> */}
             <div className='projects'>
                 <Proj2 />
                 <Proj3 />

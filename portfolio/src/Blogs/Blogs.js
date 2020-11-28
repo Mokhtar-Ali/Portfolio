@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../components/navbar2";
+import Navbar2 from "../components/navbar2";
 import Tech from "./tech.png";
 import Travel from "./travel.png";
 import "../style/blogs.css";
@@ -106,43 +106,14 @@ class Blogs extends React.Component {
   render() {
     return (
       <div className="blogs">
-        <NavBar />
-        <h2 > Technical Blogs</h2>
-        <div className="Blogs">
-            
+        <Navbar2 />
+        {/* <h2 > Technical Blogs</h2> */}
+        <div className="Blogs">  
           <div className="Tech-blogs">
             {blogs.map((blog) => {
               return <Blog key={blog.id} blog={blog} />;
             })}
           </div>
-
-          {/* <div className="Travel-blogs">
-            {blogs.map((blog) => {
-              return <Blog key={blog.id} blog={blog} />;
-            })}
-          </div> */}
-          {/* <div className="travel">
-            <h2>Travel Blogs</h2>
-            <ul>
-              <a href="https://passportshub.website/egypt" target="_blank">
-                <li>Egypt, Cairo</li>
-              </a>
-              <a href="https://passportshub.website/thailand" target="_blank">
-                <li>Thailand, Phuket</li>
-              </a>
-              <a href="https://passportshub.website/ecuador" target="_blank">
-                <li>Ecuador, Quito</li>
-              </a>
-              <a href="https://passportshub.website/ecuador" target="_blank">
-                <li>Ecuador, Baños</li>
-              </a>
-              <a href="https://passportshub.website/colombia" target="_blank">
-                <li>Colombia, Medelin</li>
-              </a>
-              {/* <a href='https://passportshub.website/colombia' target='_blank'><li>Colombia, Cartagena</li></a>
-                            <a href='https://passportshub.website/colombia' target='_blank'><li>Colombia, Santa Marta</li></a> */}
-          {/* </ul> */}
-          {/* </div> */}
         </div>
       </div>
     );

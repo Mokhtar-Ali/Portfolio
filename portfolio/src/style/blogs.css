@@ -6,9 +6,10 @@
 .Blogs {
     display: flex;
     flex-direction: row;
-    margin-top: 2%;
+    
 }
 .Tech-blogs {
+    margin-top: 2%;
     /* height: 1000px; */
     width: 100%;
     /* display: flex; */
@@ -16,6 +17,7 @@
     
 }
 .blogs h2{
+    
     font-family: fantasy;
     color: white;
     text-align: center;

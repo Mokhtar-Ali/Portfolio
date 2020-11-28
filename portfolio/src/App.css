@@ -3,16 +3,16 @@
 }
 /* style="max-width:100%;height:auto;" */
 .app{
-  /* background-size: 1`00%; */
-  /* background-image: url(./components/pic2.jpg); */
   height: 100vh;
-  /* background-color: lightblue; */
-  /* /* background-size: cover; */
   height: 100vh cover;
   max-width: 100% cover;
   width: 100vh;
   background-position: center center;
   background-attachment: fixed;
+  /* background-size: 1`00%; */
+  /* background-image: url(./components/pic2.jpg); */
+  /* background-color: lightblue; */
+  /* /* background-size: cover; */
   /* background-color: gray; */
   /* background-size: 100vh fixed; */
   /* -webkit-background-size: cover; */
@@ -21,22 +21,34 @@
   /* max-width: 100% auto;  */
   /* width: 100%; */
 }
+
+.div-main {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.div-main-divider {
+  flex: 1;
+  margin: 0px;
+}
+
+.div-copyRight {
+  display: flex;
+}
+
+.div-copyRight p {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 1px 1px white ;
+}
  
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-/* @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-} */
 
 .App-header {
   background-color: #282c34;
@@ -102,3 +114,14 @@
     flex-direction: column;
   }
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} */
