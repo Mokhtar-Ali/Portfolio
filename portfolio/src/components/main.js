@@ -20,14 +20,17 @@ import MyResume from "./MokhtarResume.pdf";
 export default function Main() {
   return (
     <div className="main">
-      <div className="about">
-        <div className="">
-          <img src={Me} className="profile_image" style={{ opacity: "90%" }} />
+
+      <div className="about"> 
+
+        <div >
+          <img src={Me} className="profile_image"  style={{marginTop: '50px'}}/>
         </div>
-        {/* <h1 className="developer">Web Developer</h1> */}
+
         <p className="name">
           I am Mokhtar Ali, a Full-Stack Software Engineer In NYC.
         </p>
+
         <h5 className="my-info-main">
           A global citizen, multilingual in coding and linguistics. With an
           extensive inquisitive nature to solve problems by building a more
@@ -39,22 +42,25 @@ export default function Main() {
           have various educational and software backgrounds to build a
           high-quality applications and projects.
         </h5>
+
         <a
           href="https://www.linkedin.com/in/mokhtar-ali-494b3765/"
           target="_blank"
-          className="link" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}
+          className="main-link"
         >
           {" "}
           Linkedin{" "}
         </a>
+
         <a
           href="https://github.com/Joemokhtarali"
           target="_blank"
-          className="link" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}
+          className="main-link" 
         >
           {" "}
           Github
         </a>
+
         <div className="skills">
           <p className="skilled">
             {" "}
@@ -70,11 +76,13 @@ export default function Main() {
             <BsFillBootstrapFill className="icon" id="7" />
             <DiGithubBadge className="icon" id="8" />
           </p>
-        </div>
-        <h3 className="" style={{fontSize:'1.3em', marginTop: "70px", fontFamily: 'fantasy', textShadow: '1px 1px black'}}>
+        </div> {/* end of skills div */}
+        
+
+        <h3 className="" style={{fontSize:'1.3em', marginTop: "40px", fontFamily: 'fantasy', textShadow: '1px 1px white', color: 'black'}}>
           Education
         </h3>
-        <ul className="" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px black'}}>
+        <ul className="" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px white', color: 'black'}}>
           <p> Flatiron School | Full Stack Software Engineering May-2020 </p>
           <p> Modern Academy Business School | Bachelor in Management 2010 GPA:3.4
           </p>
@@ -82,7 +90,9 @@ export default function Main() {
         <a className="navbar-li" href={MyResume} target="_blank">
           <h4 className="resume">Download Resume</h4>
         </a>
-      </div>
-    </div>
+      
+      </div> {/* End of About Dev  */}
+      </div> //  End of Main Dev 
+      
   );
 }

@@ -14,16 +14,20 @@ const useStyles = makeStyles((theme) => ({
     margin: "auto",
     maxWidth: 500,
     marginBottom: "10px",
+    // backgroundColor: 'black',
+   
   },
   image: {
     width: 128,
     height: 128,
+    
   },
   img: {
     margin: "auto",
     display: "block",
     maxWidth: "100%",
     maxHeight: "100%",
+    
   },
 }));
 
@@ -57,7 +61,7 @@ export default function Blog(props) {
                 <Typography gutterBottom variant="subtitle1">
                   {props.blog.name}
                 </Typography>
-                <Typography variant="body2" gutterBottom>
+                <Typography variant="body2" gutterBottom >
                   {props.blog.bio}
                 </Typography>
               </Grid>

@@ -8,18 +8,18 @@ function App() {
   return (
     <div className='app'>
       <NavBar />
-      <div style={{ marginTop: '64px', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ marginTop: '', display: 'flex', flexDirection: 'column' }}>
         <Main />
-        <div style={{ flex: '1', margin: '150px' }}>
+        <div style={{ flex: '1', margin: '0px' }}>
         </div>
       </div>
       <div style={{ display: 'flex' }}>
-        <p style={{ color: 'white', padding: '10px', margin: '20px'}}>&copy; 2020 MokhtarAli.dev</p>
+        <p style={{ color: 'white', padding: '10px', margin: '10px'}}>&copy; 2020 MokhtarAli.dev</p>
         <div style={{ flex: '1' }}></div>
-        <p style={{ color: 'white', padding: '10px', margin: '20px'}}>Created by: Mokhtar Ali</p>
+        <p style={{ color: 'white', padding: '10px', margin: '10px'}}>Created by: Mokhtar Ali</p>
       </div>
     </div>
   );
-}
+} 
 
 export default App;

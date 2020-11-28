@@ -13,8 +13,8 @@ export default function projects() {
             <NavBar />
             <h2 className='projects-header' > Projects </h2>
             <div className='projects'>
-                <Proj3 />
                 <Proj2 />
+                <Proj3 />
                 <Proj1 />
                 <Proj4 />
             </div>

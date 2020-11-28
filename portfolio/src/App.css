@@ -3,25 +3,22 @@
 }
 /* style="max-width:100%;height:auto;" */
 .app{
-
   /* background-size: 1`00%; */
   /* background-image: url(./components/pic2.jpg); */
-  /* height: 100vh; */
-  background-color: lightblue;
-  /* background-size: cover;
+  height: 100vh;
+  /* background-color: lightblue; */
+  /* /* background-size: cover; */
   height: 100vh cover;
   max-width: 100% cover;
   width: 100vh;
   background-position: center center;
   background-attachment: fixed;
+  /* background-color: gray; */
   /* background-size: 100vh fixed; */
   /* -webkit-background-size: cover; */
   /* -moz-background-size:cover; */
   /* -o-background-size:cover;  */ 
-
-  
   /* max-width: 100% auto;  */
-
   /* width: 100%; */
 }
  
@@ -49,11 +46,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 
 @keyframes App-logo-spin {

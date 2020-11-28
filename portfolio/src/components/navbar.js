@@ -4,11 +4,9 @@ import '../style/navbar.css'
 
 
 export default function NavBar() { 
- 
     return (
-        <header className='toolbar'>
+        <header className='toolbar'> 
             <nav className='toolbar_navigation'>
-                {/* <h3 className='nav-developer' >Developer</h3> */}
 
                 <div className='spacer'></div>
 
