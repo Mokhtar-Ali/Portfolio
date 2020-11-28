@@ -23,13 +23,13 @@ export default function Main() {
 
       <div className="about"> 
 
-        <div >
+        <div>
           <img src={Me} className="profile_image"  style={{marginTop: '50px'}}/>
         </div>
 
-        <p className="name">
+        <h5 className="name">
           I am Mokhtar Ali, a Full-Stack Software Engineer In NYC.
-        </p>
+        </h5>
 
         <h5 className="my-info-main">
           A global citizen, multilingual in coding and linguistics. With an
@@ -79,15 +79,15 @@ export default function Main() {
         </div> {/* end of skills div */}
         
 
-        <h3 className="" style={{fontSize:'1.3em', marginTop: "40px", fontFamily: 'fantasy', textShadow: '1px 1px white', color: 'black'}}>
+        <h3 className="Education">
           Education
         </h3>
-        <ul className="" style={{fontSize:'1.3em', fontFamily: 'fantasy', textShadow: '1px 1px white', color: 'black'}}>
+        <div className="degrees" >
           <p> Flatiron School | Full Stack Software Engineering May-2020 </p>
-          <p> Modern Academy Business School | Bachelor in Management 2010 GPA:3.4
-          </p>
-        </ul>
-        <a className="navbar-li" href={MyResume} target="_blank">
+          <p> Modern Academy Business School | Bachelor in Management 2010 GPA:3.4</p>
+        </div>
+
+        <a className="resumeA" href={MyResume} target="_blank">
           <h4 className="resume">Download Resume</h4>
         </a>
       
