@@ -124,8 +124,9 @@ class Blogs extends React.Component {
         {/* <h2 > Technical Blogs</h2> */}
         <div className="Blogs">
           <div className="Tech-blogs">
+            
             {blogs.map((blog) => {
-              return <Blog key={blog.id} blog={blog} />;
+              return <Blog key={blog.id} blog={blog} />
             })}
           </div>
         </div>
