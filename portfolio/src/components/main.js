@@ -5,7 +5,7 @@ import Me from "../style/me.JPG";
 import {
   DiCode,
   DiCss3,
-  DiFirebase,
+  DiFirebase, 
   DiGithubBadge,
   DiHtml5,
   DiJavascript1,
@@ -39,7 +39,7 @@ export default function Main() {
           Graphic Design from Microsoft. Graduated from the rigorous intensive
           Flatiron Bootcamp in Software Engineering. I've learned Ruby, Rails,
           Javascript, and React in 15-weeks. Collaborated with individuals who
-          have various educational and software backgrounds to build a
+          have various educational and software backgrounds to build
           high-quality applications and projects.
         </h5>
 

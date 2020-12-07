@@ -35,6 +35,13 @@
   text-shadow: 1px 1px black;
 }
 
+@media only screen and (max-width: 480px) {
+  .projects{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
 /* @media (min-aspect-ratio: 16/9){
     .projs {
       width: 100%;

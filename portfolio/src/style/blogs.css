@@ -20,10 +20,6 @@
     /* align-items: flex-start; */
     
 }
-
-.blog {
-    flex: 0 1 24%;
-}
 .blogs h2{
     
     font-family: fantasy;

@@ -23,6 +23,7 @@ const useStyles = makeStyles({
     },
 });
 
+
 let about = <div>
     <div style={{ textAlign: 'center' }}> <DiRuby /> <DiFirebase /><DiHtml5 /> <DiCss3 /> <BsFillBootstrapFill /></div>
     <p>Travel social media website that allows users to connect based on specific destinations. Each city page contained useful traveller information such as current weather, flight prices, currency and city summary.</p>

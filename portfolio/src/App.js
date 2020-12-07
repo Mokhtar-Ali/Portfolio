@@ -7,7 +7,7 @@ import Main from './components/main'
 function App() {
   return (
     <div className='app'>
-      <NavBar />
+      <NavBar /> 
       <div className = 'div-main' >
         <Main />
         <div className = 'div-main-divider' >
